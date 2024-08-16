@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>contact me</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="wahidAhmad">
+        <meta name="description" content="hi. you can contact me on here">
+        <link rel="stylesheet" href="main.css">
+        <link rel="icon" href="img/tacos_close_up_400x260.png">
+    </head>
+    <body>
+        <header>
+        <h1>Contact Us</h1>
+            <nav>
+                <a class="top-navigation" href="index.HTML">home</a>
+                <a class="top-navigation" href="index.HTML#aboutlts">About LTS</a>
+                <a class="top-navigation" href="index.HTML#ourmenu">Our Menu</a>
+                <a class="top-navigation" href="hours.HTML">Store Hours</a>
+            </nav>
+        </header>
+        <main>
+        <figure class="contact-figure" id="contact-form">
+            <img src="img/tacos_close_up_400x260.png" alt="picture of our normal Tacos" width="360" height="250" title="the picture of our normal Tacos">
+            <figcaption>Little Taco Shop Tacos</figcaption>
+        </figure>
+        
+        <form action="https://httpbin.org/post" method="post">
+                <p>
+                    <label for="firstname"></label>
+                    <input type="text" name="first name" id="firstname" class="form" placeholder="your name" autocomplete="off" required>
+                </p>
+                <p>
+                    <label for="email"></label>
+                    <input type="text" name="email" id="email" class="form" placeholder="your email" autocomplete="off" required>
+                </p>
+                <p>
+                    <label for="country"></label>
+                    <input list="country" name="country" class="form" placeholder="your Country">
+                    <datalist id="country">
+                        <option value="afghanistan">
+                        <option value="iran">
+                        <option value="pakistan">
+                        <option value="Europe">
+                        <option value="america">
+                        <option value="turkish">
+                    </datalist>
+                </p>
+                <p>
+                    <label for="message"></label>
+                    <textarea name="message" id="message" class="form" cols="auto" rows="auto" placeholder="How many tacos you want and what kind" required></textarea>
+                </p>
+                <button class="submit" type="submit">add to shoping box</button>
+        </form>
+        <br>
+        <br>
+        <span>
+        <aside>
+            <p class="contact-aside">
+                <a href="tel:0795737762" class="aside-information">phone</a>
+            </p>
+            <details class="contact-aside">
+                <summary>Our Location</summary>
+                <!--add live location when you learned that-->
+                <p>
+                    <address id="location">
+                        555 Taco Temptation lane, suit T Kansas City, MO 55555-5555
+                    </address>
+                </p>
+            </details>
+            <p class="contact-aside">
+                <a href="mailto:Thesharifi.wahid@gmail.com" class="aside-information">email</a>
+            </p>
+            <a href="#" class="contact-aside aside-information">back to top</a>
+        </aside>
+        </span>
+        </main>
+        <br>
+        <footer>
+            Copyright &copy; The Little Taco Shop
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,250 @@
+html {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   font-size: 22px;
+}
+
+body {
+   min-height: 100vh;
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 1rem;
+   border-left: 1px dotted rgb(8, 8, 8);
+   border-right: 1px dotted rgb(8, 8, 8);
+}
+
+h1,
+h3,
+aside,
+optgroup {
+   text-align: center;
+}
+/*
+ =====================================
+ 
+            top navigation
+ 
+ =====================================
+ */
+nav {
+   display: block;
+   direction: ltr;
+   text-align: center;
+}
+.top-navigation {
+   padding: 7px 14px;
+   border: 1px solid rgba(154, 154, 154, 0.539);
+   border-radius: 10px;
+   background-color: rgba(0, 0, 0, 0.34);
+   text-decoration: none;
+   color: white;
+}
+nav a {
+	margin-top: 20px !important;
+	text-wrap: nowrap;
+}
+nav a:hover {
+   color: #000;
+   background-color: #f5efefd4;
+}
+nav a:active {
+   color: blue;
+   background-color: rgb(175, 50, 50);
+}
+
+/*
+ =====================================
+ 
+                img
+ 
+ =====================================
+ */
+.contact-figure,
+.hours-figure,
+.index-figure {
+   text-align: center;
+}
+/*
+ =====================================
+ 
+                aside
+
+ =====================================
+ */
+.aside {
+   font-size: 2rem;
+}
+.year {
+   width: 2rem;
+   height: 2rem;
+}
+.submit-aside {
+   font-size: 30px;
+   width: 20%;
+   height: 50px;
+   border-radius: 10px;
+}
+.contact-aside {
+   float: left;
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+   width: 20%;
+   padding: 15px 2%;
+   margin: 1px;
+   display: block;
+}
+button a:active {
+   background-color: rgb(84, 138, 148);
+}
+#location {
+   background-color: rgb(3, 3, 3);
+}
+.aside-information {
+   text-decoration: none;
+   color: #fff;
+}
+.aside-information:hover {
+   color: hsl(69, 100%, 92%);
+}
+/*
+ =====================================
+ 
+              table
+ 
+ =====================================
+ */
+th,
+td,
+caption {
+   border: 1px double rgb(8, 8, 8);
+   font-family: "Courier New", Courier, monospace;
+   padding: 0.5rem;
+}
+.top-radius {
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
+}
+.bottom-radius {
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+/*
+ =====================================
+ 
+            clearfix
+ 
+ =====================================
+ */
+span:before,
+span:after {
+   content: "";
+   display: table;
+}
+span:after {
+   clear: both;
+}
+span {
+   clear: both;
+   zoom: 1;
+}
+/*
+ =====================================
+ 
+            contact form
+ 
+ =====================================
+ */
+.form {
+   background-color: rgba(90, 84, 84, 0.598);
+   color: rgb(0, 0, 0);
+   border-radius: 10px;
+   width: 300px;
+   margin: 10px;
+   font-size: 1rem;
+   height: 1.5rem;
+   float: left;
+}
+::placeholder {
+   font-size: 1rem;
+   color: black;
+}
+.submit {
+   height: 50px;
+   width: 300px;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: 600;
+   background-color: rgb(228, 222, 222);
+   margin: 10px;
+}
+#contact-form {
+   float: left;
+}
+#message {
+   height: 3rem;
+}
+/*
+ =====================================
+ 
+            best friend
+ 
+ =====================================
+ */
+#coffee {
+   width: 100%;
+   height: 50px;
+   font-size: 30px;
+}
+/*
+ =====================================
+ 
+            description list
+ 
+ =====================================
+ */
+dl {
+   display: block;
+}
+.first-dt,
+.first-dd,
+.second-dt,
+.second-dd {
+   border-radius: 5px;
+   background-color: rgba(165, 163, 165, 0.635);
+   color: white;
+   padding: 15px 50px;
+   margin: 2px;
+   border-radius: 10px;
+}
+.first-dt {
+   float: left;
+   width: 40%;
+}
+.first-dd {
+   float: right;
+   width: 40%;
+}
+.second-dt {
+   float: left;
+   width: 40%;
+}
+.second-dd {
+   float: right;
+   width: 40%;
+}
+/*
+ =====================================
+ 
+            footer 
+ 
+ =====================================
+ */
+.p {
+   clear: both;
+}
+optgroup {
+   color: #000;
+   background-color: #000;
+}
